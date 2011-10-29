@@ -1,12 +1,25 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<groupId>org.hawkinssoftware.azia</groupId>
 	<artifactId>azia</artifactId>
 	<version>0.1-alpha-1-2011.10.28-SNAPSHOT</version>
 	<packaging>pom</packaging>
+
 	<name>azia</name>
 	<description>Parent project of the Azia User Interface Library.</description>
+	<inceptionYear>2011</inceptionYear>
+	<url>http://www.hawkinssoftware.net/oss/azia</url>
+
+	<contributors>
+		<contributor>
+			<name>Byron Hawkins</name>
+			<email>byron@hawkinssoftware.net</email>
+			<organization>HawkinsSoftware</organization>
+			<organizationUrl>http://www.hawkinssoftware.net</organizationUrl>
+		</contributor>
+	</contributors>
 
 	<properties>
 		<domain-name>org.hawkinssoftware</domain-name>
