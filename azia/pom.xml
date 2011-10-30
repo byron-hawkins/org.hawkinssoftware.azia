@@ -24,7 +24,7 @@
 	<properties>
 		<domain-name>org.hawkinssoftware</domain-name>
 		<repository-username>byron-hawkins</repository-username>
-		<repository-name>${domain.name}.${project.artifactId}.git</repository-name>
+		<repository-name>${domain-name}.${project.artifactId}.git</repository-name>
 	</properties>
 
 	<dependencies>
