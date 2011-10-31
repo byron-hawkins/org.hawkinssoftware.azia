@@ -4,27 +4,31 @@ Azia User Interface Library
 *Compositional architecture and transactional execution for Java* 
 *desktop applications.*
 
-The **azia** project is the parent of 3 Java modules that comprise 
+The **azia** project is the parent of 4 Java modules that comprise 
 the prototype implementation of the [Azia User Interface Library]
 [website].
 
 [website]: http://www.hawkinssoftware.net/oss/azia
 
 1. [azia-core], a transaction framework 
-2. [azia-input], native keyboard and mouse processor
+2. [azia-input], raw keyboard and mouse event processor
+2. [azia-native-input], native OS input capture
 3. [azia-ui], user interface components
 
 [azia-core]: https://github.com/byron-hawkins/org.hawkinssoftware.azia-core/blob/master/azia-core/README.md
 [azia-input]: https://github.com/byron-hawkins/org.hawkinssoftware.azia-input/blob/master/azia-input/README.md
+[azia-native-input]: https://github.com/byron-hawkins/org.hawkinssoftware.azia-native-input/blob/master/azia-native-input/README.md
 [azia-ui]: https://github.com/byron-hawkins/org.hawkinssoftware.azia-ui/blob/master/azia-ui/README.md
 
 #### Usage
 
-1. Add the 3 Azia modules as project dependencies 
+To develop with (or on) Azia in Eclipse:
+
+1. Add the 4 Azia modules as project dependencies 
 1. Deploy the [native library] to the `java.library.path`
 1. Integrate [Role Normalization and Synthesis] [rns] 
 
-[native library]: https://github.com/byron-hawkins/org.hawkinssoftware.azia-input/tree/master/azia-input/src/main/resources/native
+[native library]: https://github.com/byron-hawkins/org.hawkinssoftware.azia-native-input/blob/master/azia-native-input/README.md
 [rns]: https://github.com/byron-hawkins/org.hawkinssoftware.rns/blob/master/rns/README.md
 
 For an example of Azia usage, see the [Scrap Menagerie]
